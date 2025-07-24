@@ -1,0 +1,22 @@
+{
+  "name": "notifyvisitorsNudges",
+  "version": "0.1.0",
+  "summary": "A short description of notifyvisitorsNudges.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ashraf-nv/notifyvisitorsNudges",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ashraf-nv": "61738869+ashraf-nv@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/ashraf-nv/notifyvisitorsNudges.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "notifyvisitorsNudges/Classes/**/*"
+}

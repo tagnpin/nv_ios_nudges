@@ -1,0 +1,6 @@
+framework module Pods_notifyvisitorsNudges_Example {
+  umbrella header "Pods-notifyvisitorsNudges_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

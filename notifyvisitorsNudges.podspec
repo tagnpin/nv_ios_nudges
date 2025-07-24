@@ -1,42 +1,35 @@
 #
-# Be sure to run `pod lib lint notifyvisitorsNudges.podspec' to ensure this is a
-# valid spec before submitting.
+#  Be sure to run `pod spec lint notifyvisitorsNudgespec.podspec' to ensure this is a
+#  valid spec and to remove all comments including this before submitting the spec.
 #
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
+#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |s|
-  s.name             = 'notifyvisitorsNudges'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of notifyvisitorsNudges.'
+Pod::Spec.new do |spec|
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  spec.name         = "notifyvisitorsNudges"
+  spec.version      = "0.0.1"
+  spec.summary      = "notifyvisitors framework for Nudges"
+  spec.description  = <<-DESC
+  NotifyVisitors Nudges sdk to use our in-app nudges. This SDK must be usd with our notifyvisitors ios SDK.
+                   DESC
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  spec.homepage     =  'https://github.com/tagnpin/nv_ios_nudges'
+  spec.license          = { :type => 'MIT', :file => 'LICENSE' }
+  spec.author           = { 'Mohammad Ashraf Ali' => 'ashraf@notifyvisitorspec.com' }
+  spec.source           = { :git => 'https://github.com/tagnpin/nv_ios_nudges.git', :tag => spec.version.to_s }
 
-  s.homepage         = 'https://github.com/ashraf-nv/notifyvisitorsNudges'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ashraf-nv' => '61738869+ashraf-nv@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/ashraf-nv/notifyvisitorsNudges.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # spec.source_files = 'notifyvisitorsNudges/Classes/**/*'
+  spec.platform         = :ios
+  spec.ios.deployment_target = '12.0'
+  spec.requires_arc     = true
+  spec.preserve_path    = 'notifyvisitorsNudges.xcframework'
+  spec.vendored_frameworks = 'notifyvisitorsNudges.xcframework'
+  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  spec.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.swift_version = '5.0'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'notifyvisitorsNudges/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'notifyvisitorsNudges' => ['notifyvisitorsNudges/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

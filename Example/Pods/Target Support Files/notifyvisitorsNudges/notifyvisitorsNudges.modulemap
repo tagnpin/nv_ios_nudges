@@ -1,0 +1,6 @@
+framework module notifyvisitorsNudges {
+  umbrella header "notifyvisitorsNudges-umbrella.h"
+
+  export *
+  module * { export * }
+}

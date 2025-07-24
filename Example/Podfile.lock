@@ -1,0 +1,16 @@
+PODS:
+  - notifyvisitorsNudges (0.1.0)
+
+DEPENDENCIES:
+  - notifyvisitorsNudges (from `../`)
+
+EXTERNAL SOURCES:
+  notifyvisitorsNudges:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  notifyvisitorsNudges: 9ae692a1deb1cc5074eed40e4aa007054e81604a
+
+PODFILE CHECKSUM: 448b7fe5721a797b0ef560989c49757abf4ae1f2
+
+COCOAPODS: 1.16.2

@@ -418,6 +418,32 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "notifyvisitorsNudgesManager",
+                "printedName": "notifyvisitorsNudges.notifyvisitorsNudgesManager",
+                "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNudgesManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNudgesManager(im)init",
+            "mangledName": "$s20notifyvisitorsNudges0aB7ManagerCACycfc",
+            "moduleName": "notifyvisitorsNudges",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
@@ -562,32 +588,6 @@
               "ObjC"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "notifyvisitorsNudgesManager",
-                "printedName": "notifyvisitorsNudges.notifyvisitorsNudgesManager",
-                "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNudgesManager"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNudgesManager(im)init",
-            "mangledName": "$s20notifyvisitorsNudges0aB7ManagerCACycfc",
-            "moduleName": "notifyvisitorsNudges",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -766,6 +766,32 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "notifyvisitorsNativeDisplay",
+                "printedName": "notifyvisitorsNudges.notifyvisitorsNativeDisplay",
+                "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNativeDisplay"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@notifyvisitorsNudges@objc(cs)notifyvisitorsNativeDisplay(im)init",
+            "mangledName": "$s20notifyvisitorsNudges0A13NativeDisplayCACycfc",
+            "moduleName": "notifyvisitorsNudges",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "loadContent",
             "printedName": "loadContent(forPropertyName:)",
@@ -805,7 +831,6 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
-        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -1543,7 +1568,7 @@
       "kind": "StringLiteral",
       "offset": 352,
       "length": 7,
-      "value": "\"1.0.0\""
+      "value": "\"0.0.2\""
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/Core\/Config\/NVSDKNudgesFrameworkInfo.swift",
@@ -1570,99 +1595,99 @@
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "IntegerLiteral",
       "offset": 401,
-      "length": 2,
-      "value": "12"
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 446,
+      "offset": 445,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 493,
+      "offset": 492,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 546,
+      "offset": 545,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
-      "kind": "IntegerLiteral",
-      "offset": 648,
-      "length": 3,
-      "value": "280"
-    },
-    {
-      "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 710,
+      "offset": 669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 907,
+      "offset": 866,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 955,
+      "offset": 914,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1016,
+      "offset": 975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1074,
+      "offset": 1033,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1145,
+      "offset": 1104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1214,
+      "offset": 1173,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 1279,
+      "offset": 1238,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayCardView.swift",
       "kind": "BooleanLiteral",
-      "offset": 308,
+      "offset": 313,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/NVSDKInAppNudges\/Templates\/NativeDisplayNudges\/View\/NVNudgesNativeDisplayCardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 408,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/siddharth\/TagnpinProjects\/NotifyvisitorsProjects\/Native_IOS\/Framework_Projects_Notifyvisitors\/notify_ios_nudges\/notifyvisitorsNudges\/Core\/Config\/NVSDKNudgesUserDefaultKeys.swift",

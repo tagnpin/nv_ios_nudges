@@ -45,7 +45,7 @@
 		37C87BD86CA0C595C0C828C00164D36F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		40BB97DA5119EB1A356649F03682FBC3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5530B8693936F9D016133B86D26A3DB4 /* notifyvisitorsNudges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = notifyvisitorsNudges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5530B8693936F9D016133B86D26A3DB4 /* notifyvisitorsNudges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = notifyvisitorsNudges.framework; path = "/Users/siddharth/TagnpinProjects/NotifyvisitorsProjects/CocoaPods/Notifyvisitors_Nudges_Cocoapods_Library/nv_ios_nudges/Example/Pods/../build/Debug-iphoneos/notifyvisitorsNudges/notifyvisitorsNudges.framework"; sourceTree = "<absolute>"; };
 		68E837853C7F25ADB78B33C915779352 /* Pods-notifyvisitorsNudges_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-notifyvisitorsNudges_Example-Info.plist"; sourceTree = "<group>"; };
 		6CFA8C1636E515834764E158B3912A6B /* Pods-notifyvisitorsNudges_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-notifyvisitorsNudges_Tests.modulemap"; sourceTree = "<group>"; };
 		71A116FE2DEEE9B530ACDE00321E9448 /* Pods-notifyvisitorsNudges_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-notifyvisitorsNudges_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -56,10 +56,8 @@
 		8B5618D38576E009E7FA2158BA968C21 /* Pods-notifyvisitorsNudges_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-notifyvisitorsNudges_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9BEEB72B00AD071B02ADC682CEEAC65F /* notifyvisitorsNudges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = notifyvisitorsNudges.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0E6325F0FA04EDC621930C08F6CE5FC /* Pods_notifyvisitorsNudges_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifyvisitorsNudges_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A366DE6FBD494F4A7D5D25BCA467B947 /* notifyvisitorsNudges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "notifyvisitorsNudges-Info.plist"; sourceTree = "<group>"; };
 		BF2EB45E3F11C48B3961C8C762BAA77D /* notifyvisitorsNudges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "notifyvisitorsNudges-prefix.pch"; sourceTree = "<group>"; };
-		CB46CF942CA019DA2B2313798850E7FA /* Pods_notifyvisitorsNudges_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notifyvisitorsNudges_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D82CFDAB5B55E676CFAF126ABDB82F /* Pods-notifyvisitorsNudges_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-notifyvisitorsNudges_Example-dummy.m"; sourceTree = "<group>"; };
 		DB0033EDEBB141D81F3D3E4CA31A1A43 /* Pods-notifyvisitorsNudges_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-notifyvisitorsNudges_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DBCDF6C3AC8C76572BC435BDEAF89C4A /* notifyvisitorsNudges.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = notifyvisitorsNudges.debug.xcconfig; sourceTree = "<group>"; };
@@ -101,9 +99,6 @@
 		0592F02C45342AC16F704C7AE0DC1A03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5530B8693936F9D016133B86D26A3DB4 /* notifyvisitorsNudges.framework */,
-				CB46CF942CA019DA2B2313798850E7FA /* Pods_notifyvisitorsNudges_Example.framework */,
-				A0E6325F0FA04EDC621930C08F6CE5FC /* Pods_notifyvisitorsNudges_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -284,7 +279,6 @@
 			);
 			name = "Pods-notifyvisitorsNudges_Tests";
 			productName = Pods_notifyvisitorsNudges_Tests;
-			productReference = A0E6325F0FA04EDC621930C08F6CE5FC /* Pods_notifyvisitorsNudges_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		78E5B0142834B7707D92F63C70A38D3C /* Pods-notifyvisitorsNudges_Example */ = {
@@ -303,7 +297,6 @@
 			);
 			name = "Pods-notifyvisitorsNudges_Example";
 			productName = Pods_notifyvisitorsNudges_Example;
-			productReference = CB46CF942CA019DA2B2313798850E7FA /* Pods_notifyvisitorsNudges_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */

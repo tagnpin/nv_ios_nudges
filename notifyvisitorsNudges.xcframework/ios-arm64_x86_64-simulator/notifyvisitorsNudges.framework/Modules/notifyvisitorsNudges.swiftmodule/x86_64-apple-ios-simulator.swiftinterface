@@ -22,13 +22,14 @@ import _SwiftConcurrencyShims
 }
 @_inheritsConvenienceInitializers @objc(notifyvisitorsNudgesManager) public class notifyvisitorsNudgesManager : ObjectiveC.NSObject {
   @objc public static let sharedInstance: notifyvisitorsNudges.notifyvisitorsNudgesManager
+  @objc override dynamic public init()
   @objc weak public var delegate: (any notifyvisitorsNudges.notifyvisitorsNudgesDelegate)?
   @objc(showPipVideoPopupWithInAppMessaageData:) public func showPipVideoPopup(withInAppMessaageData inAppMessageDataDict: Foundation.NSDictionary?)
-  @objc override dynamic public init()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(notifyvisitorsNativeDisplay) public class notifyvisitorsNativeDisplay : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc(notifyvisitorsNativeDisplay) public class notifyvisitorsNativeDisplay : ObjectiveC.NSObject {
   @objc public static let sharedInstance: notifyvisitorsNudges.notifyvisitorsNativeDisplay
+  @objc override dynamic public init()
   @objc(loadContentForPropertyName:) public func loadContent(forPropertyName propertyName: Swift.String) -> UIKit.UIView
   @objc deinit
 }

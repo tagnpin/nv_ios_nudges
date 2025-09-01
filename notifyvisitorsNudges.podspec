@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "notifyvisitorsNudges"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "notifyvisitors framework for Nudges"
   spec.description  = <<-DESC
   NotifyVisitors Nudges sdk to use our in-app nudges. This SDK must be usd with our notifyvisitors ios SDK.

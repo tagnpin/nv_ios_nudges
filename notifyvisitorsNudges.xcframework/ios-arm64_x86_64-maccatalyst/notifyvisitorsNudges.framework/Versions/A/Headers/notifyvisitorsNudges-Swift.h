@@ -313,8 +313,7 @@ SWIFT_CLASS_NAMED("notifyvisitorsNativeDisplay")
 @interface notifyvisitorsNativeDisplay : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) notifyvisitorsNativeDisplay * _Nonnull sharedInstance;)
 + (notifyvisitorsNativeDisplay * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (UIView * _Nonnull)loadContentForPropertyName:(NSString * _Nonnull)propertyName SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -336,9 +335,9 @@ SWIFT_CLASS_NAMED("notifyvisitorsNudgesManager")
 @interface notifyvisitorsNudgesManager : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) notifyvisitorsNudgesManager * _Nonnull sharedInstance;)
 + (notifyvisitorsNudgesManager * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, weak) id <notifyvisitorsNudgesDelegate> _Nullable delegate;
 - (void)showPipVideoPopupWithInAppMessaageData:(NSDictionary * _Nullable)inAppMessageDataDict;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
@@ -664,8 +663,7 @@ SWIFT_CLASS_NAMED("notifyvisitorsNativeDisplay")
 @interface notifyvisitorsNativeDisplay : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) notifyvisitorsNativeDisplay * _Nonnull sharedInstance;)
 + (notifyvisitorsNativeDisplay * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (UIView * _Nonnull)loadContentForPropertyName:(NSString * _Nonnull)propertyName SWIFT_WARN_UNUSED_RESULT;
 @end
 
@@ -687,9 +685,9 @@ SWIFT_CLASS_NAMED("notifyvisitorsNudgesManager")
 @interface notifyvisitorsNudgesManager : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) notifyvisitorsNudgesManager * _Nonnull sharedInstance;)
 + (notifyvisitorsNudgesManager * _Nonnull)sharedInstance SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, weak) id <notifyvisitorsNudgesDelegate> _Nullable delegate;
 - (void)showPipVideoPopupWithInAppMessaageData:(NSDictionary * _Nullable)inAppMessageDataDict;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif
